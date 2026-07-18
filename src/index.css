@@ -6,4 +6,19 @@ html,body{
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
+  background-color: black;
+}
+
+
+.i-am-masked{
+  -webkit-mask-image: url('/images/mask.svg');
+  mask-image: url('/images/mask.svg');
+  mask-size:2950vw 3250vh;
+  -webkit-mask-size:2950vw 3250vh;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  background-clip:content-box;
+  background-position: center;
+  mask-position:center;
+  -webkit-mask-position:center;
 }
