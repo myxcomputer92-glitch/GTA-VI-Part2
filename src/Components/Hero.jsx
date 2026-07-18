@@ -8,14 +8,14 @@ const Hero = () => {
   useGSAP(()=>{
     const tl=gsap.timeline({scrollTrigger:{
        trigger:'.i-am-masked',
-      markers:true,
+      // markers:true,
       start:'2% top',
       end:'12% top',
       scrub:true,
     }})
     const tl2=gsap.timeline({scrollTrigger:{
       trigger:'.i-am-masked',
-      markers:true,
+      // markers:true,
       start:'5% top',
       end:'12% top',
       scrub:1,
