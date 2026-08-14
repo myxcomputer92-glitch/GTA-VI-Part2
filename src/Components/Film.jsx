@@ -16,7 +16,7 @@ const Film = () => {
         vidoe3_ref.current.onloadedmetadata=()=>{
 
            const tl5= gsap.timeline({scrollTrigger:{
-                    markers:true,
+                    // markers:true,
                     trigger:vidoe3_ref.current,
                     start:"7% 30%",
                     end:"45% 30%",
