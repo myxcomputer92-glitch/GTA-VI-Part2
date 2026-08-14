@@ -13,8 +13,8 @@ html,body{
 .i-am-masked{
   -webkit-mask-image: url('/images/mask.svg');
   mask-image: url('/images/mask.svg');
-  mask-size:2950vw 3250vh;
-  -webkit-mask-size:2950vw 3250vh;
+  mask-size:2650vw 3250vh;
+  -webkit-mask-size:2650vw 3250vh;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   background-clip:content-box;

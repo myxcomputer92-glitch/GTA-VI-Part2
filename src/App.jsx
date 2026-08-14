@@ -6,6 +6,10 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Center from './Components/Center'
+import Film from './Components/Film'
+import Footer from './Components/Footer'
+import Jason from './Components/Jason'
+import Lucia from './Components/Lucia'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +18,11 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
-    <Center/>
+    {/* <Center/> */}
+    <Jason/>
+    <Lucia/>
+    <Film/>
+    {/* <Footer/> */}
       </>
   )
 }
