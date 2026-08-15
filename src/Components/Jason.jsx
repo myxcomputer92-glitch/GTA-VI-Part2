@@ -34,7 +34,7 @@ const Jason = () => {
         opacity:0,
         duration:0.3
       })
-      scrollTrigger.refresh()
+      ScrollTrigger.refresh()
       }
 
 // const tl2=gsap.timeline({scrollTrigger:{

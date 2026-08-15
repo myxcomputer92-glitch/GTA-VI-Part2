@@ -37,7 +37,7 @@ const Lucia = () => {
         .to(video2,{
           opacity:0
         })
-      scrollTrigger.refresh()
+      ScrollTrigger.refresh()
       }
 
 })
